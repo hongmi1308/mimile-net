@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: mimi-le-netcafe
+    runtime: python
+    plan: free
+    buildCommand: "bash build.sh"
+    startCommand: "gunicorn web_django.wsgi:application --log-file -"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.8
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mimi-le-netcafe-db
+          property: connectionString
+
+databases:
+  - name: mimi-le-netcafe-db
+    plan: free
