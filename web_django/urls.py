@@ -2,11 +2,11 @@
 URL configuration for web_django project.
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 
 # Import cho MEDIA
 from django.conf import settings
-from django.conf.urls.static import static
+from django.views.static import serve
 
 # Danh sách điều hướng các trang trên website
 urlpatterns = [
@@ -15,4 +15,6 @@ urlpatterns = [
 ]
 
 # Kích hoạt hiển thị hình ảnh (sản phẩm, avatar...) khi đang chạy ở máy cá nhân
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += [
+    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+]
