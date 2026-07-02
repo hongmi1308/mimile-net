@@ -1,0 +1,1334 @@
+[
+{
+  "model": "app.machine",
+  "pk": 1,
+  "fields": {
+    "name": "pc1",
+    "machine_type": "thuong",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 2,
+  "fields": {
+    "name": "pc2",
+    "machine_type": "gaming",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc1.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 3,
+  "fields": {
+    "name": "pc3",
+    "machine_type": "thuong",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc10.jpg.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 4,
+  "fields": {
+    "name": "pc4",
+    "machine_type": "thuong",
+    "status": "trong",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc7.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 5,
+  "fields": {
+    "name": "pc5",
+    "machine_type": "vip",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc8.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 6,
+  "fields": {
+    "name": "pc6",
+    "machine_type": "thuong",
+    "status": "dang_dung",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pcpc.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 7,
+  "fields": {
+    "name": "pc7",
+    "machine_type": "thuong",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": true,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc9.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 8,
+  "fields": {
+    "name": "pc8",
+    "machine_type": "thuong",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc11.jpg"
+  }
+},
+{
+  "model": "app.machine",
+  "pk": 9,
+  "fields": {
+    "name": "pc9",
+    "machine_type": "thuong",
+    "status": "khoa",
+    "hourly_rate": "10000",
+    "has_headset": true,
+    "has_account": false,
+    "ram_gb": 8,
+    "note": "",
+    "image": "machine_images/pc12.jpg"
+  }
+},
+{
+  "model": "app.customer",
+  "pk": 1,
+  "fields": {
+    "name": "Phan Nhật Phát",
+    "phone": "098123456",
+    "member_type": "thanhVien",
+    "balance": "20000",
+    "created": "2026-05-24T12:28:05.713Z"
+  }
+},
+{
+  "model": "app.service",
+  "pk": 1,
+  "fields": {
+    "name": "Mì",
+    "category": "do_an",
+    "price": "30000",
+    "stock": 50,
+    "available": true
+  }
+},
+{
+  "model": "app.service",
+  "pk": 2,
+  "fields": {
+    "name": "Nước",
+    "category": "do_uong",
+    "price": "10000",
+    "stock": 100,
+    "available": true
+  }
+},
+{
+  "model": "app.service",
+  "pk": 3,
+  "fields": {
+    "name": "Snack",
+    "category": "do_an",
+    "price": "20000",
+    "stock": 40,
+    "available": true
+  }
+},
+{
+  "model": "app.service",
+  "pk": 4,
+  "fields": {
+    "name": "Phụ kiện",
+    "category": "phu_kien",
+    "price": "50000",
+    "stock": 20,
+    "available": true
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 1,
+  "fields": {
+    "customer_name": "tram",
+    "phone": "",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-05-20T11:37:30.423Z",
+    "planned_minutes": 5,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 2,
+  "fields": {
+    "customer_name": "loi",
+    "phone": "",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-05-21T12:27:23.928Z",
+    "planned_minutes": 6,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 3,
+  "fields": {
+    "customer_name": "loi",
+    "phone": "",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-05-21T12:27:51.708Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 4,
+  "fields": {
+    "customer_name": "loi",
+    "phone": "",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-05-21T12:36:38.546Z",
+    "planned_minutes": 5,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 5,
+  "fields": {
+    "customer_name": "Demo Khách",
+    "phone": "0123456789",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-05-21T12:58:05.622Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 6,
+  "fields": {
+    "customer_name": "Phạm Thành Lợi",
+    "phone": "0984533645",
+    "preferred_type": "gaming",
+    "preferred_machine": 6,
+    "arrived_at": "2026-05-25T12:53:51.850Z",
+    "planned_minutes": 90,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 7,
+  "fields": {
+    "customer_name": "Trần Ngọc Hưng",
+    "phone": "0789654321",
+    "preferred_type": "thuong",
+    "preferred_machine": 5,
+    "arrived_at": "2026-05-25T12:57:43.503Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 8,
+  "fields": {
+    "customer_name": "Huynh NHU",
+    "phone": "079928382",
+    "preferred_type": "gaming",
+    "preferred_machine": 1,
+    "arrived_at": "2026-06-20T09:07:41.486Z",
+    "planned_minutes": 8,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 9,
+  "fields": {
+    "customer_name": "Tú",
+    "phone": "0984533645",
+    "preferred_type": "thuong",
+    "preferred_machine": 6,
+    "arrived_at": "2026-06-21T03:28:00.057Z",
+    "planned_minutes": 63,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 10,
+  "fields": {
+    "customer_name": "Phạm Thành Lợi",
+    "phone": "0911223344",
+    "preferred_type": "thuong",
+    "preferred_machine": null,
+    "arrived_at": "2026-06-23T01:22:45.405Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 11,
+  "fields": {
+    "customer_name": "Lê Hồng Mi",
+    "phone": "0987654321",
+    "preferred_type": "thuong",
+    "preferred_machine": 6,
+    "arrived_at": "2026-06-23T01:23:21.773Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.queue",
+  "pk": 12,
+  "fields": {
+    "customer_name": "nghĩa",
+    "phone": "0984533645",
+    "preferred_type": "thuong",
+    "preferred_machine": 6,
+    "arrived_at": "2026-06-23T01:24:12.641Z",
+    "planned_minutes": 60,
+    "is_served": true,
+    "note": ""
+  }
+},
+{
+  "model": "app.session",
+  "pk": 1,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "mi",
+    "machine": 1,
+    "start_time": "2026-05-19T12:14:25.150Z",
+    "end_time": "2026-05-19T13:14:25.150Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "10000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "phat",
+    "machine": 2,
+    "start_time": "2026-05-19T12:14:42.575Z",
+    "end_time": "2026-05-19T14:14:42.575Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": true,
+    "used_ram_gb": 0,
+    "planned_minutes": 120,
+    "total_cost": "20000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "loi",
+    "machine": 3,
+    "start_time": "2026-05-20T11:37:06.131Z",
+    "end_time": "2026-05-20T11:37:06.131Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 0,
+    "total_cost": "167",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "mi",
+    "machine": 2,
+    "start_time": "2026-05-20T11:58:55.691Z",
+    "end_time": "2026-05-20T12:00:55.691Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 2,
+    "total_cost": "333",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 5,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "loi",
+    "machine": 1,
+    "start_time": "2026-05-20T11:59:11.500Z",
+    "end_time": "2026-05-20T12:04:11.500Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 15,
+    "planned_minutes": 5,
+    "total_cost": "667",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 6,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "phat",
+    "machine": 3,
+    "start_time": "2026-05-20T11:59:23.500Z",
+    "end_time": "2026-05-20T12:08:23.500Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 5,
+    "planned_minutes": 9,
+    "total_cost": "1200",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 7,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "mi",
+    "machine": 1,
+    "start_time": "2026-05-21T12:25:13.829Z",
+    "end_time": "2026-05-21T12:28:13.829Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 5,
+    "planned_minutes": 3,
+    "total_cost": "400",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 8,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "phat",
+    "machine": 5,
+    "start_time": "2026-05-21T12:25:31.977Z",
+    "end_time": "2026-05-21T12:31:31.977Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 32,
+    "planned_minutes": 6,
+    "total_cost": "800",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 9,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "tram",
+    "machine": 2,
+    "start_time": "2026-05-21T12:44:44.988Z",
+    "end_time": "2026-05-21T12:50:44.988Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": true,
+    "used_ram_gb": 3,
+    "planned_minutes": 6,
+    "total_cost": "800",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 10,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "loi",
+    "machine": 1,
+    "start_time": "2026-05-21T12:49:47.430Z",
+    "end_time": "2026-05-21T12:54:36.320Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 5,
+    "total_cost": "30667",
+    "paid": true,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "customer": null,
+    "customer_name": "Demo Khách",
+    "machine": 3,
+    "start_time": "2026-05-21T12:58:05.632Z",
+    "end_time": "2026-05-21T12:58:05.659Z",
+    "game_name": "Demo Game",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "30133",
+    "paid": true,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 12,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Lê Hồng Mi",
+    "machine": 4,
+    "start_time": "2026-05-24T12:30:48.570Z",
+    "end_time": "2026-05-24T13:30:48.570Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": true,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "8000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 13,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "",
+    "machine": 5,
+    "start_time": "2026-05-25T12:58:03.166Z",
+    "end_time": "2026-05-25T13:58:03.166Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "8000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 14,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "loi",
+    "machine": 3,
+    "start_time": "2026-06-04T01:41:42.430Z",
+    "end_time": "2026-06-04T01:47:42.430Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 16,
+    "planned_minutes": 6,
+    "total_cost": "30600",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 15,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "mi",
+    "machine": 2,
+    "start_time": "2026-06-04T01:54:07.925Z",
+    "end_time": "2026-06-04T01:54:07.925Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 0,
+    "total_cost": "110000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 16,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "mi",
+    "machine": 2,
+    "start_time": "2026-06-04T01:55:05.413Z",
+    "end_time": "2026-06-04T02:55:05.413Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "116000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 17,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "phat",
+    "machine": 6,
+    "start_time": "2026-06-04T01:55:43.764Z",
+    "end_time": "2026-06-04T02:25:43.764Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 30,
+    "total_cost": "3000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 18,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "loi",
+    "machine": 7,
+    "start_time": "2026-06-04T01:56:27.123Z",
+    "end_time": "2026-06-04T02:06:27.123Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 16,
+    "planned_minutes": 10,
+    "total_cost": "31000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 19,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "tram",
+    "machine": 1,
+    "start_time": "2026-06-04T02:11:55.450Z",
+    "end_time": "2026-06-04T02:21:55.450Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 10,
+    "total_cost": "111000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 20,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Phan Nhat Phat",
+    "machine": 1,
+    "start_time": "2026-06-20T09:06:01.944Z",
+    "end_time": "2026-06-20T09:16:01.944Z",
+    "game_name": "PU",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": true,
+    "used_ram_gb": 15,
+    "planned_minutes": 10,
+    "total_cost": "81333",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 21,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Le hong Mi",
+    "machine": 2,
+    "start_time": "2026-06-20T09:06:50.023Z",
+    "end_time": "2026-06-20T09:17:50.023Z",
+    "game_name": "HCS",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": true,
+    "used_ram_gb": 16,
+    "planned_minutes": 11,
+    "total_cost": "51467",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 22,
+  "fields": {
+    "user": 4,
+    "customer": 1,
+    "customer_name": "Pham thanh loi",
+    "machine": 3,
+    "start_time": "2026-06-20T09:07:18.642Z",
+    "end_time": "2026-06-20T09:19:18.642Z",
+    "game_name": "LQ",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 8,
+    "planned_minutes": 12,
+    "total_cost": "81600",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 23,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Phạm Thành Lợi",
+    "machine": 4,
+    "start_time": "2026-06-21T02:17:52.126Z",
+    "end_time": "2026-06-21T03:17:52.126Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 8,
+    "planned_minutes": 60,
+    "total_cost": "56000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 24,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Nguyễn Văn A",
+    "machine": 6,
+    "start_time": "2026-06-21T02:18:38.601Z",
+    "end_time": "2026-06-21T03:48:38.601Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": true,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 90,
+    "total_cost": "19000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 25,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Na",
+    "machine": 7,
+    "start_time": "2026-06-21T03:20:20.256Z",
+    "end_time": "2026-06-21T05:50:20.256Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 150,
+    "total_cost": "15000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 26,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "B",
+    "machine": 8,
+    "start_time": "2026-06-21T03:20:49.009Z",
+    "end_time": "2026-06-21T07:20:49.009Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 8,
+    "planned_minutes": 240,
+    "total_cost": "56667",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 27,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "NY",
+    "machine": 9,
+    "start_time": "2026-06-21T03:21:20.613Z",
+    "end_time": "2026-06-21T03:51:20.613Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 16,
+    "planned_minutes": 30,
+    "total_cost": "33000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 28,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Tú",
+    "machine": 6,
+    "start_time": "2026-06-23T01:20:57.415Z",
+    "end_time": "2026-06-23T02:23:57.415Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 63,
+    "total_cost": "6300",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 29,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Ni",
+    "machine": 5,
+    "start_time": "2026-06-23T01:22:17.612Z",
+    "end_time": "2026-06-23T05:22:17.612Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 8,
+    "planned_minutes": 240,
+    "total_cost": "24000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 30,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Phạm Thành Lợi",
+    "machine": 4,
+    "start_time": "2026-06-23T01:22:49.584Z",
+    "end_time": "2026-06-23T02:22:49.584Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "6000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 31,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "Lê Hồng Mi",
+    "machine": 7,
+    "start_time": "2026-06-23T01:23:26.469Z",
+    "end_time": "2026-06-23T02:23:26.469Z",
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "6000",
+    "paid": false,
+    "status": "hoan_thanh"
+  }
+},
+{
+  "model": "app.session",
+  "pk": 32,
+  "fields": {
+    "user": 4,
+    "customer": null,
+    "customer_name": "nghĩa",
+    "machine": 6,
+    "start_time": "2026-06-23T09:25:22.180Z",
+    "end_time": null,
+    "game_name": "",
+    "promo_code": "",
+    "discount_percent": 0,
+    "used_headset": false,
+    "used_account": false,
+    "used_ram_gb": 0,
+    "planned_minutes": 60,
+    "total_cost": "0",
+    "paid": false,
+    "status": "dang_chay"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 1,
+  "fields": {
+    "session": 10,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 2,
+  "fields": {
+    "session": 11,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 3,
+  "fields": {
+    "session": 14,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 4,
+  "fields": {
+    "session": 15,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 5,
+  "fields": {
+    "session": 15,
+    "service": 2,
+    "quantity": 1,
+    "price": "10000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 6,
+  "fields": {
+    "session": 15,
+    "service": 3,
+    "quantity": 1,
+    "price": "20000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 7,
+  "fields": {
+    "session": 15,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 8,
+  "fields": {
+    "session": 16,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 9,
+  "fields": {
+    "session": 16,
+    "service": 2,
+    "quantity": 1,
+    "price": "10000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 10,
+  "fields": {
+    "session": 16,
+    "service": 3,
+    "quantity": 1,
+    "price": "20000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 11,
+  "fields": {
+    "session": 16,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 12,
+  "fields": {
+    "session": 18,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 13,
+  "fields": {
+    "session": 19,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 14,
+  "fields": {
+    "session": 19,
+    "service": 2,
+    "quantity": 1,
+    "price": "10000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 15,
+  "fields": {
+    "session": 19,
+    "service": 3,
+    "quantity": 1,
+    "price": "20000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 16,
+  "fields": {
+    "session": 19,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 17,
+  "fields": {
+    "session": 20,
+    "service": 2,
+    "quantity": 1,
+    "price": "10000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 18,
+  "fields": {
+    "session": 20,
+    "service": 3,
+    "quantity": 1,
+    "price": "20000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 19,
+  "fields": {
+    "session": 20,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 20,
+  "fields": {
+    "session": 21,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 21,
+  "fields": {
+    "session": 21,
+    "service": 3,
+    "quantity": 1,
+    "price": "20000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 22,
+  "fields": {
+    "session": 22,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 23,
+  "fields": {
+    "session": 22,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 24,
+  "fields": {
+    "session": 23,
+    "service": 4,
+    "quantity": 1,
+    "price": "50000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 25,
+  "fields": {
+    "session": 24,
+    "service": 2,
+    "quantity": 1,
+    "price": "10000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 26,
+  "fields": {
+    "session": 26,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+},
+{
+  "model": "app.sessionservice",
+  "pk": 27,
+  "fields": {
+    "session": 27,
+    "service": 1,
+    "quantity": 1,
+    "price": "30000"
+  }
+}
+]
