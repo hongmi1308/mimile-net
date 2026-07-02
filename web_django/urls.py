@@ -15,5 +15,4 @@ urlpatterns = [
 ]
 
 # Kích hoạt hiển thị hình ảnh (sản phẩm, avatar...) khi đang chạy ở máy cá nhân
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
